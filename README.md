@@ -43,24 +43,6 @@ This repository covers the following machine learning topics:
 3. **Predictive Modeling**: Regression analysis, classification problems
 4. **Practical Projects**: Prediction problems across various domains
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-```bash
-git clone https://github.com/[username]/ML_Study_Notes.git
-cd ML_Study_Notes
-```
-
-2. Install required packages:
-```bash
-pip install jupyter tensorflow torch scikit-learn pandas numpy matplotlib seaborn
-```
-
-3. Launch Jupyter Notebook:
-```bash
-jupyter notebook
-```
-
 ## 📝 License
 
 This project is created for educational purposes.
