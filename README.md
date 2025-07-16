@@ -4,26 +4,28 @@ A comprehensive repository containing practical Python implementations of machin
 
 ## 📋 Table of Contents
 
-- [📁 Overall Project Structure](#-overall-project-structure)
-- [🚀 Quick Start](#-quick-start)
-- [📁 Project Structure](#-project-structure)
-  - [🎯 Basic Machine Learning](#-basic-machine-learning)
-  - [🧠 Deep Learning](#-deep-learning)
-  - [📝 NLP](#-nlp)
-  - [🔧 Optimization](#-optimization)
-  - [📊 Predictive Modeling](#-predictive-modeling)
-  - [🎯 Clustering](#-clustering)
-  - [👁️ Computer Vision](#️-computer-vision)
-  - [🚀 MLOps](#-mlops)
-- [🛠️ Technologies & Libraries](#️-technologies--libraries)
-- [📚 Learning Path](#-learning-path)
-- [🎯 Use Cases](#-use-cases)
-- [🔧 Customization](#-customization)
-- [📝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [👤 Author](#-author)
+- [📁 Overall Project Structure](#overall-project-structure)
+- [🚀 Quick Start](#quick-start)
+- [📁 Project Structure](#project-structure)
+  - [🎯 Basic Machine Learning](#basic-machine-learning)
+  - [🧠 Deep Learning](#deep-learning)
+  - [📝 NLP](#nlp)
+  - [🔧 Optimization](#optimization)
+  - [📊 Predictive Modeling](#predictive-modeling)
+  - [🎯 Clustering](#clustering)
+  - [👁️ Computer Vision](#computer-vision)
+  - [🚀 MLOps](#mlops)
+- [🛠️ Technologies & Libraries](#technologies-libraries)
+- [📚 Learning Path](#learning-path)
+- [🎯 Use Cases](#use-cases)
+- [🔧 Customization](#customization)
+- [📝 Contributing](#contributing)
+- [📄 License](#license)
+- [👤 Author](#author)
 
 ## 📁 Overall Project Structure
+
+<a name="overall-project-structure"></a>
 
 ```
 ML_Practical_Codes/
@@ -139,6 +141,8 @@ ML_Practical_Codes/
 
 ## 🚀 Quick Start
 
+<a name="quick-start"></a>
+
 ### Prerequisites
 ```bash
 # Install required packages
@@ -165,9 +169,13 @@ python NLP/Text_Classification/text_classification_examples.py
 python MLOps/Model_Deployment/model_deployment_examples.py
 ```
 
-## 📁 Project Structure {#-project-structure}
+## 📁 Project Structure
 
-### 🎯 Basic Machine Learning {#-basic-machine-learning}
+<a name="project-structure"></a>
+
+### 🎯 Basic Machine Learning
+
+<a name="basic-machine-learning"></a>
 Core ML fundamentals with practical implementations.
 
 #### Data Preprocessing
@@ -207,7 +215,9 @@ Core ML fundamentals with practical implementations.
 - **`ml_utilities.py`** - Helper functions for data loading, model saving, and common ML operations
 - **Usage**: `python Basic_Machine_Learning/Utilities/ml_utilities.py`
 
-### 🧠 Deep Learning {#-deep-learning}
+### 🧠 Deep Learning
+
+<a name="deep-learning"></a>
 Neural network implementations using TensorFlow/Keras and PyTorch.
 
 #### CNN (Convolutional Neural Networks)
@@ -242,7 +252,9 @@ Neural network implementations using TensorFlow/Keras and PyTorch.
 - **`vae_linear_mnist.ipynb`** - Linear VAE notebook
 - **Usage**: `python Deep_Learning/VAE/variational_autoencoders.py`
 
-### 📝 NLP (Natural Language Processing) {#-nlp}
+### 📝 NLP (Natural Language Processing)
+
+<a name="nlp"></a>
 Text processing and language understanding implementations.
 
 #### Text Preprocessing
@@ -269,7 +281,9 @@ Text processing and language understanding implementations.
 - **`semantic_analysis_examples.py`** - Sentiment analysis, text similarity, and semantic search
 - **Usage**: `python NLP/Semantic_Analysis/semantic_analysis_examples.py`
 
-### 🔧 Optimization {#-optimization}
+### 🔧 Optimization
+
+<a name="optimization"></a>
 Mathematical optimization algorithms and techniques.
 
 #### Linear Programming
@@ -296,7 +310,9 @@ Mathematical optimization algorithms and techniques.
 - **`convex_optimization_examples.py`** - Convex problems, quadratic programming, and portfolio optimization
 - **Usage**: `python Optimization/Convex_Optimization/convex_optimization_examples.py`
 
-### 📊 Predictive Modeling {#-predictive-modeling}
+### 📊 Predictive Modeling
+
+<a name="predictive-modeling"></a>
 Real-world prediction problems and solutions.
 
 #### Time Series Forecasting
@@ -328,14 +344,18 @@ Real-world prediction problems and solutions.
 - **`multi_label_examples.py`** - Multi-label classification with label powerset and classifier chains
 - **Usage**: `python Predictive_Modeling/Multi_Label_Classification/multi_label_examples.py`
 
-### 🎯 Clustering {#-clustering}
+### 🎯 Clustering
+
+<a name="clustering"></a>
 Unsupervised learning and data segmentation.
 
 #### Clustering Examples
 - **`clustering_examples.py`** - K-means, hierarchical clustering, DBSCAN, and customer segmentation
 - **Usage**: `python Clustering/clustering_examples.py`
 
-### 👁️ Computer Vision {#️-computer-vision}
+### 👁️ Computer Vision
+
+<a name="computer-vision"></a>
 Image processing and computer vision applications.
 
 #### Image Classification
@@ -358,7 +378,9 @@ Image processing and computer vision applications.
 - **`feature_extraction_examples.py`** - SIFT, SURF, ORB, and deep feature extraction
 - **Usage**: `python Computer_Vision/Feature_Extraction/feature_extraction_examples.py`
 
-### 🚀 MLOps {#-mlops}
+### 🚀 MLOps
+
+<a name="mlops"></a>
 Machine Learning Operations and production deployment.
 
 #### Model Pipeline
@@ -369,7 +391,9 @@ Machine Learning Operations and production deployment.
 - **`model_deployment_examples.py`** - Flask/FastAPI APIs, Docker containerization, and cloud deployment
 - **Usage**: `python MLOps/Model_Deployment/model_deployment_examples.py`
 
-## 🛠️ Technologies & Libraries {#️-technologies--libraries}
+## 🛠️ Technologies & Libraries
+
+<a name="technologies-libraries"></a>
 
 ### Core ML Libraries
 - **Scikit-learn**: Traditional ML algorithms
@@ -402,7 +426,9 @@ Machine Learning Operations and production deployment.
 - **Flask/FastAPI**: Web API frameworks
 - **Docker**: Containerization
 
-## 📚 Learning Path {#-learning-path}
+## 📚 Learning Path
+
+<a name="learning-path"></a>
 
 ### Beginner Level
 1. Start with **Basic Machine Learning** folder
@@ -422,7 +448,9 @@ Machine Learning Operations and production deployment.
 3. Deploy models with **MLOps**
 4. Create end-to-end ML pipelines
 
-## 🎯 Use Cases {#-use-cases}
+## 🎯 Use Cases
+
+<a name="use-cases"></a>
 
 ### Business Applications
 - Customer segmentation and targeting
@@ -442,7 +470,9 @@ Machine Learning Operations and production deployment.
 - Model monitoring and maintenance
 - Scalable ML infrastructure
 
-## 🔧 Customization {#-customization}
+## 🔧 Customization
+
+<a name="customization"></a>
 
 ### Adding New Algorithms
 ```python
@@ -464,7 +494,9 @@ class CustomImplementation(BaseClass):
         # Add your custom logic
 ```
 
-## 📝 Contributing {#-contributing}
+## 📝 Contributing
+
+<a name="contributing"></a>
 
 1. Fork the repository
 2. Create a feature branch
@@ -472,11 +504,15 @@ class CustomImplementation(BaseClass):
 4. Include example usage and test cases
 5. Submit a pull request
 
-## 📄 License {#-license}
+## 📄 License
+
+<a name="license"></a>
 
 This project is created for educational purposes. Feel free to use and modify for learning and research.
 
-## 👤 Author {#-author}
+## 👤 Author
+
+<a name="author"></a>
 
 **Leanna Jeon**
 
