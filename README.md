@@ -2,6 +2,27 @@
 
 A comprehensive repository containing practical Python implementations of machine learning algorithms, deep learning models, and MLOps solutions. This project covers the entire ML lifecycle from data preprocessing to production deployment.
 
+## 📋 Table of Contents
+
+- [📁 Overall Project Structure](#-overall-project-structure)
+- [🚀 Quick Start](#-quick-start)
+- [📁 Project Structure](#-project-structure)
+  - [🎯 Basic Machine Learning](#-basic-machine-learning)
+  - [🧠 Deep Learning](#-deep-learning)
+  - [📝 NLP](#-nlp)
+  - [🔧 Optimization](#-optimization)
+  - [📊 Predictive Modeling](#-predictive-modeling)
+  - [🎯 Clustering](#-clustering)
+  - [👁️ Computer Vision](#️-computer-vision)
+  - [🚀 MLOps](#-mlops)
+- [🛠️ Technologies & Libraries](#️-technologies--libraries)
+- [📚 Learning Path](#-learning-path)
+- [🎯 Use Cases](#-use-cases)
+- [🔧 Customization](#-customization)
+- [📝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [👤 Author](#-author)
+
 ## 📁 Overall Project Structure
 
 ```
@@ -144,9 +165,9 @@ python NLP/Text_Classification/text_classification_examples.py
 python MLOps/Model_Deployment/model_deployment_examples.py
 ```
 
-## 📁 Project Structure
+## 📁 Project Structure {#-project-structure}
 
-### 🎯 Basic Machine Learning
+### 🎯 Basic Machine Learning {#-basic-machine-learning}
 Core ML fundamentals with practical implementations.
 
 #### Data Preprocessing
@@ -186,7 +207,7 @@ Core ML fundamentals with practical implementations.
 - **`ml_utilities.py`** - Helper functions for data loading, model saving, and common ML operations
 - **Usage**: `python Basic_Machine_Learning/Utilities/ml_utilities.py`
 
-### 🧠 Deep Learning
+### 🧠 Deep Learning {#-deep-learning}
 Neural network implementations using TensorFlow/Keras and PyTorch.
 
 #### CNN (Convolutional Neural Networks)
@@ -221,7 +242,7 @@ Neural network implementations using TensorFlow/Keras and PyTorch.
 - **`vae_linear_mnist.ipynb`** - Linear VAE notebook
 - **Usage**: `python Deep_Learning/VAE/variational_autoencoders.py`
 
-### 📝 NLP (Natural Language Processing)
+### 📝 NLP (Natural Language Processing) {#-nlp}
 Text processing and language understanding implementations.
 
 #### Text Preprocessing
@@ -248,7 +269,7 @@ Text processing and language understanding implementations.
 - **`semantic_analysis_examples.py`** - Sentiment analysis, text similarity, and semantic search
 - **Usage**: `python NLP/Semantic_Analysis/semantic_analysis_examples.py`
 
-### 🔧 Optimization
+### 🔧 Optimization {#-optimization}
 Mathematical optimization algorithms and techniques.
 
 #### Linear Programming
@@ -275,7 +296,7 @@ Mathematical optimization algorithms and techniques.
 - **`convex_optimization_examples.py`** - Convex problems, quadratic programming, and portfolio optimization
 - **Usage**: `python Optimization/Convex_Optimization/convex_optimization_examples.py`
 
-### 📊 Predictive Modeling
+### 📊 Predictive Modeling {#-predictive-modeling}
 Real-world prediction problems and solutions.
 
 #### Time Series Forecasting
@@ -307,14 +328,14 @@ Real-world prediction problems and solutions.
 - **`multi_label_examples.py`** - Multi-label classification with label powerset and classifier chains
 - **Usage**: `python Predictive_Modeling/Multi_Label_Classification/multi_label_examples.py`
 
-### 🎯 Clustering
+### 🎯 Clustering {#-clustering}
 Unsupervised learning and data segmentation.
 
 #### Clustering Examples
 - **`clustering_examples.py`** - K-means, hierarchical clustering, DBSCAN, and customer segmentation
 - **Usage**: `python Clustering/clustering_examples.py`
 
-### 👁️ Computer Vision
+### 👁️ Computer Vision {#️-computer-vision}
 Image processing and computer vision applications.
 
 #### Image Classification
@@ -337,7 +358,7 @@ Image processing and computer vision applications.
 - **`feature_extraction_examples.py`** - SIFT, SURF, ORB, and deep feature extraction
 - **Usage**: `python Computer_Vision/Feature_Extraction/feature_extraction_examples.py`
 
-### 🚀 MLOps
+### 🚀 MLOps {#-mlops}
 Machine Learning Operations and production deployment.
 
 #### Model Pipeline
@@ -348,7 +369,7 @@ Machine Learning Operations and production deployment.
 - **`model_deployment_examples.py`** - Flask/FastAPI APIs, Docker containerization, and cloud deployment
 - **Usage**: `python MLOps/Model_Deployment/model_deployment_examples.py`
 
-## 🛠️ Technologies & Libraries
+## 🛠️ Technologies & Libraries {#️-technologies--libraries}
 
 ### Core ML Libraries
 - **Scikit-learn**: Traditional ML algorithms
@@ -381,7 +402,7 @@ Machine Learning Operations and production deployment.
 - **Flask/FastAPI**: Web API frameworks
 - **Docker**: Containerization
 
-## 📚 Learning Path
+## 📚 Learning Path {#-learning-path}
 
 ### Beginner Level
 1. Start with **Basic Machine Learning** folder
@@ -401,7 +422,7 @@ Machine Learning Operations and production deployment.
 3. Deploy models with **MLOps**
 4. Create end-to-end ML pipelines
 
-## 🎯 Use Cases
+## 🎯 Use Cases {#-use-cases}
 
 ### Business Applications
 - Customer segmentation and targeting
@@ -421,7 +442,7 @@ Machine Learning Operations and production deployment.
 - Model monitoring and maintenance
 - Scalable ML infrastructure
 
-## 🔧 Customization
+## 🔧 Customization {#-customization}
 
 ### Adding New Algorithms
 ```python
@@ -443,7 +464,7 @@ class CustomImplementation(BaseClass):
         # Add your custom logic
 ```
 
-## 📝 Contributing
+## 📝 Contributing {#-contributing}
 
 1. Fork the repository
 2. Create a feature branch
@@ -451,11 +472,11 @@ class CustomImplementation(BaseClass):
 4. Include example usage and test cases
 5. Submit a pull request
 
-## 📄 License
+## 📄 License {#-license}
 
 This project is created for educational purposes. Feel free to use and modify for learning and research.
 
-## 👤 Author
+## 👤 Author {#-author}
 
 **Leanna Jeon**
 
