@@ -1,6 +1,8 @@
-# ML Practical Codes - Complete Machine Learning Project Collection
+# ML Practical Codes - Machine Learning Project Collection
 
 A comprehensive repository containing practical Python implementations of machine learning algorithms, deep learning models, and MLOps solutions. This project covers the entire ML lifecycle from data preprocessing to production deployment.
+
+> **📝 Note**: This repository contains practical implementations of machine learning algorithms and techniques. Each script is designed to be runnable and includes comprehensive documentation, making it suitable for both learning and production use.
 
 ## 📋 Table of Contents
 
@@ -520,8 +522,4 @@ This project is created for educational purposes. Feel free to use and modify fo
 
 - Open source ML community
 - Academic institutions and research papers
-- Industry best practices and case studies
-
----
-
-**Note**: This repository contains practical implementations of machine learning algorithms and techniques. Each script is designed to be runnable and includes comprehensive documentation, making it suitable for both learning and production use. 
+- Industry best practices and case studies 
